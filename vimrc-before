@@ -1,0 +1,9 @@
+call janus#disable_plugin('nerdcommenter')
+let mapleader = ","
+"Prompt for a command to run
+map tp :PromptVimTmuxCommand
+
+" Run last command executed by RunVimTmuxCommand
+map tl :RunLastVimTmuxCommand
+" CtrlP refresh Cache
+let g:ctrlp_use_caching = 0
